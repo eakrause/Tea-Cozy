@@ -1,0 +1,144 @@
+html{
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+body{
+  margin: 0px;
+}
+
+header{
+  position: fixed;
+  display: flex;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  left: 0px;
+  top: 0px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  z-index: 5;
+}
+
+.logo img{
+  margin-left: 10px;
+  height: 50px;
+}
+
+nav{
+  margin-right: 10px;
+}
+
+nav a{
+  color: seashell;
+  padding: 20px 10px;
+}
+
+.main{
+  padding-top: 70px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+}
+
+.mission{
+  background-image: url("../images/img-mission-background.jpg");
+  height:700px;
+  width: 1200px;
+  display: flex;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.content{
+  width:100%;
+  background-color: black;
+}
+
+.div-store{
+  padding-top: 70px;
+  width: 100%;
+  height: 770;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex-picture-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.flex-pic-center{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 1000px;
+  justify-content: center;
+}
+
+.flex-picture{
+  width: 300px;
+  margin: 10px;
+}
+
+.flex-picture img{
+  height: 200px;
+  margin: 10px;
+}
+
+.flex-picture span{
+  padding: 5px;
+}
+
+.locations{
+  margin-top: 70px;
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+}
+
+.locations h2{
+  margin: 15px;
+  display: block;
+}
+
+.separater{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.location-info{
+  background-color: black;
+  height: 250px;
+  width: 300px;
+  opacity: 1;
+  margin: 20px;
+}
+
+.footer{
+  height: 200px;
+}
+
+.copyright{
+  margin-left: 20px;
+  text-align: left;
+}
